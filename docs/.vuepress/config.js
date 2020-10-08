@@ -29,7 +29,7 @@ module.exports = {
         },
         nav: require('./nav/de'),
         sidebar: {
-          '/guide/': getGuideSidebar('Guide', 'Advanced'),
+          '/dokumentation/': getGuideSidebar('Frontend', 'Backend'),
         }
       }
     }
@@ -62,6 +62,32 @@ module.exports = {
 }
 
 function getGuideSidebar (groupA, groupB) {
+  return [
+    {
+      title: groupA,
+      collapsable: true,
+      children: [
+        '',
+        'getting-started',
+        'options',
+        'categories',
+        'services',
+        'cookies',
+        'consents',
+        'reports'
+      ]
+    },
+    {
+      title: groupB,
+      collapsable: true,
+      children: [
+            'scripts'
+      ]
+    }
+  ]
+}
+
+function getAblaufSidebar (groupA, groupB) {
   return [
     {
       title: groupA,

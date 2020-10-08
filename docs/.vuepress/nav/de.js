@@ -1,6 +1,14 @@
 module.exports = [
   {
-    text: 'Guide',
-    link: '/guide/'
+    text: 'Dokumentation',
+    link: '/dokumentation/'
+  },
+  {
+    text: 'Ablaufplan',
+    link: '/ablauf/'
+  },
+  {
+    text: 'Todo',
+    link: '/todo/'
   }
 ]
