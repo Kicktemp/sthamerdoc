@@ -30,6 +30,7 @@ module.exports = {
         nav: require('./nav/de'),
         sidebar: {
           '/dokumentation/': getGuideSidebar('Frontend', 'Backend'),
+          '/ablauf/': getAblaufSidebar(),
         }
       }
     }
@@ -86,20 +87,29 @@ function getGuideSidebar (groupA, groupB) {
   ]
 }
 
-function getAblaufSidebar (groupA, groupB) {
+function getAblaufSidebar () {
   return [
     {
-      title: groupA,
-      collapsable: true,
+      title: 'CLI / Cronjobs',
+      collapsable: false,
       children: [
-        '',
-        'getting-started',
-        'mehrsprachigkeit',
-        'categories',
-        'cookies',
-        'scripts',
-        'consents',
-        'reports'
+        'cli/',
+        'cli/csv',
+        'cli/joomlauser',
+      ]
+    },
+    {
+      title: 'Frontend',
+      collapsable: false,
+      children: [
+        'frontend/',
+      ]
+    },
+    {
+      title: 'Backend',
+      collapsable: false,
+      children: [
+        'backend/',
       ]
     }
   ]
