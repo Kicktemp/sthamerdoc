@@ -1,8 +1,9 @@
-# Getting Started
+# Grundlegendes
 
-::: warning COMPATIBILITY NOTE
-Kick Consent Manager requires Joomla >= 3.8 and PHP >= 7.0.
-:::
+Das Frontend ist für die Besucher, potentiellen und echten Kunden von Dr. StHamer gedacht. Hier kann der Besucher sich informieren und Kunden Analysen beauftragen.
 
-## Quick Start
+Natürlich gibt es auch das gesetzlich vorgeschriebene Impressum und die Datenschutzerklärung.
+
+Die Inhalte der Webseiten selber können dann im **Backend** verändert werden.
+
 

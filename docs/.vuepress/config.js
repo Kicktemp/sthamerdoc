@@ -69,9 +69,8 @@ function getGuideSidebar (groupA, groupB) {
       children: [
         '',
         'getting-started',
-        'options',
+        'mehrsprachigkeit',
         'categories',
-        'services',
         'cookies',
         'consents',
         'reports'
@@ -95,9 +94,8 @@ function getAblaufSidebar (groupA, groupB) {
       children: [
         '',
         'getting-started',
-        'options',
+        'mehrsprachigkeit',
         'categories',
-        'services',
         'cookies',
         'scripts',
         'consents',
