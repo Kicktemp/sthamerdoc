@@ -69,19 +69,15 @@ function getGuideSidebar (groupA, groupB) {
       collapsable: true,
       children: [
         '',
-        'getting-started',
-        'mehrsprachigkeit',
-        'categories',
-        'cookies',
-        'consents',
-        'reports'
+        'mehrsprachigkeit'
       ]
     },
     {
       title: groupB,
       collapsable: true,
       children: [
-            'scripts'
+        'backend_intro',
+        'schaum_komponente'
       ]
     }
   ]
@@ -109,7 +105,7 @@ function getAblaufSidebar () {
       title: 'Backend',
       collapsable: false,
       children: [
-        'backend/',
+        'frontend/'
       ]
     }
   ]
