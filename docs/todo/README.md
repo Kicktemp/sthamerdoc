@@ -3,15 +3,32 @@
 Auflistung aller arbeiten, die noch zu erfolgen haben.
 
 ## Vereinheitlichung der Benennung.
+
 Beispiel: Das es viele Komponenten gibt, die Joomla! nutzt, wie nenen wir die Komponenten, die für die Analysen zuständig ist?
 Schaum-Kopmonente? StHamer-Komponente?
 
+# ToDo Frontend
 
-## Frontend "unsere Analysepakete"
+## "unsere Analysepakete"
+
 *Niels:* Ausgabe der Preise bei angemeldeten User, die Preise einsehen dürfen.
 
 
-# Backlog
+# ToDo Backend
 
-Arbeiten, die Sinnvoll sind, aber vorerst unter das "Feature-Freeze" fallen und zu einem späteren Zeitpunkt als eigenes Projekt abgearbeitet werden können.
+## Aufträge
+
+Ausgabe Auftragsnummer, Probennummern und Nettobetrag der Bestellung
+
+## Artikel (Paket)
+
+Wir haben da viele alten Artikeln / Pakete, können wir die eigentlich mal löschen? Ich glaube, das ist doch historisch oder?
+
+
+## Proben
+*Niels:* Ausgabe der Spalten Schaummittelart und Details zu der Bestellung (braucht ggf. der Support Mitarbeiter, das er im backend Kundenbeschwerden überprüfen kann).
+
+
+
+
 

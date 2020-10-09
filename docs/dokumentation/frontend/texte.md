@@ -1,4 +1,5 @@
-# Website-Texte (normale Webseiten Inhalte)
+# Website-Texte
+*normale Webseiten Inhalte*
 
 Standad Funktionen *Joomla!*  Diese können in verschiedenen Sprachen angelegt werden. Diese sollten dann mit der korrespondierenden Seite in den anderen Sprachen verknüpft werden.
 

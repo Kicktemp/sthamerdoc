@@ -29,8 +29,9 @@ module.exports = {
         },
         nav: require('./nav/de'),
         sidebar: {
-          '/dokumentation/': getGuideSidebar('Frontend', 'Backend'),
+          '/dokumentation/': getDokumentationSidebar('Frontend', 'Backend'),
           '/ablauf/': getAblaufSidebar(),
+          '/todo/' : getTodoSidebar(),
         }
       }
     }
@@ -62,22 +63,23 @@ module.exports = {
   }
 }
 
-function getGuideSidebar (groupA, groupB) {
+function getDokumentationSidebar (groupA, groupB) {
   return [
     {
       title: groupA,
       collapsable: true,
       children: [
-        '',
-        'mehrsprachigkeit'
+        'frontend/',
+        'frontend/texte',
+        'frontend/mehrsprachigkeit'
       ]
     },
     {
       title: groupB,
       collapsable: true,
       children: [
-        'backend_intro',
-        'schaum_komponente'
+        'backend/',
+        'backend/schaum_komponente'
       ]
     }
   ]
@@ -105,8 +107,24 @@ function getAblaufSidebar () {
       title: 'Backend',
       collapsable: false,
       children: [
-        'frontend/'
+        'backend/'
       ]
+    }
+  ]
+}
+
+function getTodoSidebar()
+{
+  return [
+
+    {
+      title: '',
+      collapsable: false,
+      children: [
+          '',
+          'fragen',
+        'backlog'
+          ]
     }
   ]
 }
