@@ -65,20 +65,32 @@ Anlegen der Schaummittelarten
 Anmerkung:
 Meerwasser / Frischwasser wird in der Matrix konfiguriert. Da es je nachdem verschiedene Basistests geben kann.
 
+
+<img :src="$withBase('/Schaummittelarten_Listing.jpg')" alt="Schjaummittelarten Auflistung">
+
 ### 2.2.6.1 Reiter: Details
+
+
+<img :src="$withBase('/Schaummittelarten_Details.jpg')" alt="Schjaummittelarten Details">
 Schaumtyp*: Eindeutiger Name des Schaums z.B. AFFF
 
+::: warning
 Preis*:	ToDo>Niels Brauchen wir den überhaupt? Kann das nicht weg?
-
+:::
 Beschreibung: Längere Beschreibung was den Schaumtyp ausmacht.
 
 ### 2.2.6.2 Reiter: Zumischrate
+<img :src="$withBase('/Schaummittelarten_Zumischraten.jpg')" alt="Schjaummittelarten Zumischraten">
+
 Zumischrate anzeigen: Ja/Nein
 
 Zumischraten: Können per Checkbox ausgewählt werden.
 
 ### 2.2.6.3 Reiter: Übersetzungen
 Hier können weitere Sprachen mit hinzugefügt werden. Standardmäßig sollte dies Englisch sein.
+
+
+<img :src="$withBase('/Schaummittelarten_Uebersetzungen.jpg')" alt="Schjaummittelarten Übersetzungen">
 Sprache:
 
 Artikel: (Name des Artikels) was meistens der auch die deutsche Abkürzung sein sollte.
