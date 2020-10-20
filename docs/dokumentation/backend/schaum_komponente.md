@@ -12,23 +12,34 @@ Zugang: Obere Navigation Komponenten > Schaum Dr. StHamer = Übersichtsseite
 
 ## 2.2.2 Aufträge
 Auflistung der Bestellungen und welche Proben darin enthalten sind.
+<img :src="$withBase('/Auftraege_Listing.jpg')" alt="Auflistung Aufträge">
 
 
 ## 2.2.3 Proben
 Auflistung der einzelnen Analysen
+<img :src="$withBase('/Proben_Listing.jpg')" alt="Auflistung Proben">
+
 
 ## 2.2.4 Kunden
 Der Standard Joomla! User wird so mit den Daten aus Chemtop angelegt. Diese zusätzlichen Userdaten können dann im backend zu dem Userdaten im einen eigenen Reiter eingesehen werden.
 Diese Daten können hier nicht angepasst werden. Eine Anpassung dieser Daten kann nur aus einem ChemTop CSV Export geschehen.
 Daher können Adressänderungen nur in ChemTop durchgeführt werden.
 
+<img :src="$withBase('/Kunden_Listing.jpg')" alt="Auflistung Kunden">
 
 ## 2.2.5 Tests
 Hier können die Tests konfiguriert werden. Es können auch Test gelöscht und deaktiviert werden.
 
+<img :src="$withBase('/Tests_Listing.jpg')" alt="Auflistung Kunden">
+
+
 Folgende Angaben können Sie zu einem Test verändern:
 
 ### 2.2.5.1 Reiter: Details
+Test_Bearbeiten_Details.jpg
+
+<img :src="$withBase('/Test_Bearbeiten_Details.jpg')" alt="Tests Reiter Details">
+
 Test*: Deutscher Name des Tests.
 
 Preis*: Hier bitte den Netto-Preis eintragen.
@@ -39,6 +50,10 @@ Status: Ob dieser Test gerade veröffentlicht oder deaktiviert ist.
 
 ### 2.2.5.2 Reiter: Übersetzungen
 Hier können die Übersetzungen für verschiedene Sprachen angelegt werden. Bisher ist das nur English. Wenn man auf das Grüne „+“ Symbol klickt, kann man weitere Übersetzungen zu dem Test abspeichern.
+
+
+<img :src="$withBase('/Test_Bearbeiten_Uebersetzungen.jpg')" alt="Tests Reiter Übersetzungen">
+
 
 ### 2.2.5.3 Reiter: Veröffentlichung und Berechtigungen
 
