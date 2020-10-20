@@ -105,7 +105,12 @@ DO NOT TOUCH – so lassen, wie es ist!
 ### 2.2.7 Artikel (Paket)
 Hier werden bestellbare Pakete konfiguriert. Die man von ihnen Analysieren lassen kann.
 
+<img :src="$withBase('/Pakete_Listing.jpg')" alt="Pakete Auflistung">
+
 ### 2.2.7.1 Reiter: Details
+
+<img :src="$withBase('/Pakete_Details.jpg')" alt="Pakete Details">
+
 Status: Veröffentlicht/Versteckt
 
 Matrix nutzen: „Ja“ nur bei Routinemustern, alles andere hat ein „Nein“
@@ -121,6 +126,10 @@ Beschreibung: Langbeschreibung des Artikels. Dieser wird auch in der Übersichts
 Übersetzung des Artikels (Pakets) in andere Sprachen.
 Mit dem „+“ können später noch weitere Sprachen hinzugefügt werden.
 
+
+<img :src="$withBase('/Pakete_Uebersetzungen.jpg')" alt="Pakete Übersetzungen">
+
+
 ### 2.2.7.3 Reiter: Veröffentlichung und Berechtigungen
 DO NOT TOUCH – so lassen, wie es ist!
 
@@ -128,7 +137,13 @@ DO NOT TOUCH – so lassen, wie es ist!
 Das eigentliche Kernstück der Komponente - hier können zu den Routinemuster-Proben die einzelnen Tests konfiguriert werden.
 Herbei muss jeder Schaum einmal in Meerwasser und in Frischwasser angelegt werden. Da diese teilweise unterschiedliche Basistests haben.
 
+
+<img :src="$withBase('/Matrix_Listing.jpg')" alt="Matrix für Routinemuster">
+
 ### 2.2.8.1 Reiter: Details
+<img :src="$withBase('/Matrix_Details.jpg')" alt="Matrix Details">
+
+
 Status:	veröffentlicht / versteckt
 
 Wasserart:	Meerwasser / Frischwasser
@@ -153,12 +168,16 @@ Zusätzlich hat man noch die Optionen:
 Reihenfolge: Wie die Zusatztests ausgegeben werden
 
 
+
 *Beispiele:*
 - Basistest – nicht austauschbar: Test muss vom Kunden genommen werden.
 - Baistest - austauschbar: Test kann vom Kunden deaktiviert werden und er kann dafür einen verfügbaren Zusatztest auswählen.
 
 Der Preis eines Routinemusters sinkt nie unter den Grundbetrag, selbst wenn der Kunde Tests abwählt und keine Zusatztests auswählt!
-ToDo>Niels: Ist doch so oder? Sollte auf jeden Fall so sein. Prices only Go Up.
+
+<img :src="$withBase('/Matrix_Konfigurator.jpg')" alt="Matrix Konfigurator">
+
+
 
 ### 2.2.8.3 Reiter: Veröffentlichung und Berechtigungen
 
