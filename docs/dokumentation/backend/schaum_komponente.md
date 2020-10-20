@@ -2,6 +2,7 @@
 
 Hier sind alle essenziellen Informationen und Konfigurationen, die die Mitarbeiter brauchen, um die Inhalte der Website anzupassen, und die Analysen anzupassen (z.B neue Preise einpflegen).
 
+<img :src="$withBase('/Komponenten_StHamer_Navigation.jpg')" alt="Navigationspfad">
 
 Dort werden die Analysemöglichkeiten konfiguriert.
 Zugang: Obere Navigation Komponenten > Schaum Dr. StHamer = Übersichtsseite
