@@ -7,7 +7,7 @@ Wir haben bei Sthamer Cronjobs um:
 1. Kundenprofile anzulegen
 2. Joomla Benutzer anzulegen
 3. Bestellungen zu exportieren
-4. E-Mail zu versenden 
+4. E-Mails zu versenden 
 
 
 ## Import
