@@ -14,11 +14,16 @@ Zugang: Obere Navigation Komponenten > Schaum Dr. StHamer = Übersichtsseite
 Auflistung der Bestellungen und welche Proben darin enthalten sind.
 <img :src="$withBase('/Auftraege_Listing.jpg')" alt="Auflistung Aufträge">
 
+### 2.2.2.1 Aufträge Optionen
+<img :src="$withBase('/Auftraege_Details.jpg')" alt="Auflistung Proben">
 
 ## 2.2.3 Proben
 Auflistung der einzelnen Analysen
 <img :src="$withBase('/Proben_Listing.jpg')" alt="Auflistung Proben">
 
+
+### 2.2.3.1 Proben Details
+<img :src="$withBase('/Proben_Bearbeiten_Details.jpg')" alt="Proben Details">
 
 ## 2.2.4 Kunden
 Der Standard Joomla! User wird so mit den Daten aus Chemtop angelegt. Diese zusätzlichen Userdaten können dann im backend zu dem Userdaten im einen eigenen Reiter eingesehen werden.
@@ -26,6 +31,10 @@ Diese Daten können hier nicht angepasst werden. Eine Anpassung dieser Daten kan
 Daher können Adressänderungen nur in ChemTop durchgeführt werden.
 
 <img :src="$withBase('/Kunden_Listing.jpg')" alt="Auflistung Kunden">
+
+### 2.2.4.1 Kunden Details
+<img :src="$withBase('/Kunden_Details.jpg')" alt="Auflistung Kunden">
+
 
 ## 2.2.5 Tests
 Hier können die Tests konfiguriert werden. Es können auch Test gelöscht und deaktiviert werden.
