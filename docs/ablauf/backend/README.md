@@ -84,11 +84,52 @@ Einige Test sind als Basistest oder Zusatztest gekennzeichnet, diese Test könne
 | ordering | Rheihenfolge | INT
 
 `#__sthamer_proof_test_map`
+
 | Feld | Zweck | Feld Typ
 | ------- | ---------- | --------
-| test_id | Test ID | INT
 | proof_id | M ID | INT
-| watertype_id | Wasserart (AQM oder AQF) | TINYINT
-| testtype | Wasserart (AQM oder AQF) | TINYINT
-| selectable | Wasserart (AQM oder AQF) | TINYINT
-| proof_ordering | Schaummittelart ID | INT
+| test_id | Test ID | INT
+| testtype | Basistest oder Zusatztest | TINYINT
+| selectable | austauschbar | TINYINT
+| ordering | Rheihenfolge | INT
+
+
+## Kunden
+
+`#__sthamer_customers`
+
+| Name | Zweck | Feld Typ
+| ------- | ---------- | --------
+| ku_num | Kundennummer | INT(10)
+| ku_rech_nam | Rechnung Name | TEXT
+| ku_rech_zus_1 | Rechnung Zusatz 1 | TEXT
+| ku_rech_zus_2 | Rechnung Zusatz 2 | TEXT
+| ku_rech_str | Rechnung Straße | TEXT
+| ku_rech_postfach | Rechnung Postfach | TEXT
+| ku_rech_postfach_plz | Rechnung Postfach PLZ | TEXT
+| ku_rech_lkz | Rechnung Landkreis |
+| ku_rech_plz | Rechnnung PLZ |
+| ku_rech_ort | Rechnung Ort |
+| ku_norm_z_kond | Zahlungsbedingungen |
+| ku_bestaetigung_email_01 | da |
+| ku_zert_nam | da |
+| ku_zert_zus_1 | da |
+| ku_zert_zus_2 | da |
+| ku_zert_strasse | da |
+| ku_zert_postfach | da |
+| ku_zert_postfach_plz | da |
+| ku_zert_lkz | da |
+| ku_zert_plz | da |
+| ku_zert_ort | da |
+| lang | da |
+| taxfree | Steuerfrei | boolean
+| showprice | Preise anzeigen | boolean
+| username | Joomla Username | string
+| email | Joomla E-Mail | string
+| block | User sperren | boolean
+| update | Joomla Daten updaten | boolean
+| delete | Joomla User löschen | boolean
+
+::: warning BACKLOG
+Umsätze anzeigen
+:::

@@ -9,6 +9,10 @@ Wir haben bei Sthamer Cronjobs um:
 3. Bestellungen zu exportieren
 4. E-Mails zu versenden 
 
+<video width="480" height="270" controls>
+  <source src="/mp4/CLI-Import.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> 
 
 ## Import
 
