@@ -31,7 +31,7 @@ Hier gibt es globale Optionen. In den Optionen haben wir den CLi Import. Das CLi
 CLi-Skripte sorgen hier dafür, das automatisiert in einem bestimmten Intervall Arbeiten ausgeführt werden. Ein Skript importiert die Kundendaten aus ChemTop mit Hilfe einer CSV-Datei. Diese CSV-Datei eindeutig aufgebaut (siehe Punkt CSV).
 Kundennummer, Rechnungsanschrift, Zahlungskondition, Bestätigungs-E-Mail, Zertifizikatsadresse, die Sprache des Kunden. Des weiteren relevante Daten, die für die Programmierung wichtig sind. Ob der Kunde steuerfrei ist (der Kunde sieht nur Nettopreise), ob er überhaupt Preise angezeigt bekommt, den Usernamen. Das ist der Benutzername, mit dem er sich nachher anmeldet. Dann noch die E-Mail damit wir ihm die Zugangsdaten für sein Profil zu schicken können.
 
-Das kann auch eine abweichen dieser Bestätigungs-E-Mail sein. Mit dem Feld „Block“, können Sie aus ChemTop einen Kunden sperren. z.B. weil er nicht bezahlt hat. Dann können Sie diesen Kunden erstmal blockieren, ohne dass sie ihn gleich zu löschen. Wenn auf Block den BOLEAN gleich „1“ setzen, dann sorgt, das System einfach dafür, dass der säumige Kunde sich nicht mehr einloggen kann.
+Mit dem Feld „Block“, können Sie aus ChemTop einen Kunden sperren. z.B. weil er nicht bezahlt hat. Dann können Sie diesen Kunden erstmal blockieren, ohne dass sie ihn gleich zu löschen. Wenn auf Block den BOLEAN gleich „1“ setzen, dann sorgt, das System einfach dafür, dass der säumige Kunde sich nicht mehr einloggen kann.
 Wichtig: Für alle Änderungen (über die CSV) muss immer ein UPDATE gleich „1“ gesetzt werden. Damit eben unser System weiß, wie die Daten verarbeitet werden müssen.
 In den Tab „Ordner“ wird definiert, wo das System nach neuen CSV-Dateien für den Import nachgucken soll.
 
