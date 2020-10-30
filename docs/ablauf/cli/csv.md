@@ -14,7 +14,7 @@
 | KU_RECH_PLZ | Rechnnung PLZ |
 | KU_RECH_ORT | Rechnung Ort |
 | KU_NORM_Z_KOND | Zahlungsbedingungen |
-| KU_BESTAETIGUNG_EMAIL_01 | da |
+| KU_BESTAETIGUNG_EMAIL_01 | = email s.u. |
 | KU_ZERT_NAM | da |
 | KU_ZERT_ZUS_1 | da |
 | KU_ZERT_ZUS_2 | da |
