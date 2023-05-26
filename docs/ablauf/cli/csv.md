@@ -10,21 +10,21 @@
 | KU_RECH_STR | Rechnung Straße | TEXT
 | KU_RECH_POSTFACH | Rechnung Postfach | TEXT
 | KU_RECH_POSTFACH_PLZ | Rechnung Postfach PLZ | TEXT
-| KU_RECH_LKZ | Rechnung Landkreis |
-| KU_RECH_PLZ | Rechnnung PLZ |
-| KU_RECH_ORT | Rechnung Ort |
-| KU_NORM_Z_KOND | Zahlungsbedingungen |
-| KU_BESTAETIGUNG_EMAIL_01 | = email s.u. |
-| KU_ZERT_NAM | da |
-| KU_ZERT_ZUS_1 | da |
-| KU_ZERT_ZUS_2 | da |
-| KU_ZERT_STRASSE | da |
-| KU_ZERT_POSTFACH | da |
-| KU_ZERT_POSTFACH_PLZ | da |
-| KU_ZERT_LKZ | da |
-| KU_ZERT_PLZ | da |
-| KU_ZERT_ORT | da |
-| KU_SPRACHE | da |
+| KU_RECH_LKZ | Rechnung Landkreis | TEXT
+| KU_RECH_PLZ | Rechnnung PLZ | TEXT
+| KU_RECH_ORT | Rechnung Ort | TEXT
+| KU_NORM_Z_KOND | Zahlungsbedingungen | TEXT
+| KU_BESTAETIGUNG_EMAIL_01 | = email s.u. | TEXT
+| KU_ZERT_NAM | s. o. | TEXT
+| KU_ZERT_ZUS_1 | s. o. | TEXT
+| KU_ZERT_ZUS_2 | s. o. | TEXT
+| KU_ZERT_STRASSE | s. o. | TEXT
+| KU_ZERT_POSTFACH | s. o. | TEXT
+| KU_ZERT_POSTFACH_PLZ | s. o. | TEXT
+| KU_ZERT_LKZ | s. o. | TEXT
+| KU_ZERT_PLZ | s. o. | TEXT
+| KU_ZERT_ORT | s. o. | TEXT
+| KU_SPRACHE | Kundesprache | string
 | taxfree | Steuerfrei | boolean
 | showprice | Preise anzeigen | boolean
 | username | Joomla Username | string
