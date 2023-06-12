@@ -2,7 +2,7 @@
 
 
 | Name | Zweck | Feld Typ | UDF
-| ------- | ---------- | --------
+| ------- | ---------- | -------- | --------
 | KU_NUM | Kundennummer | INT(10) |
 | KU_RECH_NAM | Rechnung Name | TEXT |
 | KU_RECH_ZUS_1 | Rechnung Zusatz 1 | TEXT |
