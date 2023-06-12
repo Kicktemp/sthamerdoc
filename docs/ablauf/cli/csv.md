@@ -1,7 +1,7 @@
 # CSV
 
 
-| Name | Zweck | Feld Typ
+| Name | Zweck | Feld Typ | UDF
 | ------- | ---------- | --------
 | KU_NUM | Kundennummer | INT(10)
 | KU_RECH_NAM | Rechnung Name | TEXT
